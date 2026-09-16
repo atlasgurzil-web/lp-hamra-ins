@@ -45,40 +45,41 @@
   <!-- Feuille de style personnalisée -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col antialiased selection:bg-hamra-600 selection:text-white pb-safe md:pb-0">
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col antialiased selection:bg-hamra-600 selection:text-white pb-safe md:pb-0 overflow-x-hidden w-full">
 
   <!-- HEADER INSTITUTIONNEL FIXE / STICKY -->
-  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all w-full">
+    <div class="max-w-4xl mx-auto px-3 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-2">
       
       <!-- Identité Hamra Annaba -->
-      <a href="#" class="flex items-center gap-3 group focus:outline-hidden focus-visible:ring-2 focus-visible:ring-hamra-600 rounded-lg p-1">
+      <a href="#" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-hidden focus-visible:ring-2 focus-visible:ring-hamra-600 rounded-lg p-1 min-w-0">
         <div class="relative shrink-0">
-          <img src="assets/images/logo-hamra.png" alt="Logo officiel Hamra Annaba" class="w-11 h-11 sm:w-14 sm:h-14 object-contain rounded-full shadow-xs group-hover:scale-105 transition-transform duration-200">
-          <span class="absolute -bottom-1 -right-1 flex h-3 w-3 sm:h-3.5 sm:w-3.5">
+          <img src="assets/images/logo-hamra.png" alt="Logo officiel Hamra Annaba" class="w-10 h-10 sm:w-14 sm:h-14 object-contain rounded-full shadow-xs group-hover:scale-105 transition-transform duration-200">
+          <span class="absolute -bottom-0.5 -right-0.5 flex h-2.5 w-2.5 sm:h-3.5 sm:w-3.5">
             <span class="pulse-dot absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-3 w-3 sm:h-3.5 sm:w-3.5 bg-emerald-500 border-2 border-white"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 sm:h-3.5 sm:w-3.5 bg-emerald-500 border-2 border-white"></span>
           </span>
         </div>
-        <div class="flex flex-col">
-          <div class="flex items-center gap-2">
-            <span class="font-extrabold text-base sm:text-xl tracking-tight text-slate-950 uppercase">Hamra Annaba</span>
-            <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-hamra-50 text-hamra-700 border border-hamra-200">1944</span>
+        <div class="flex flex-col min-w-0">
+          <div class="flex items-center gap-1.5 sm:gap-2">
+            <span class="font-extrabold text-sm sm:text-xl tracking-tight text-slate-950 uppercase truncate">Hamra Annaba</span>
+            <span class="hidden min-[380px]:inline-flex text-[10px] sm:text-xs font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-hamra-50 text-hamra-700 border border-hamra-200 shrink-0">1944</span>
           </div>
-          <div class="flex items-center gap-1.5 text-xs text-slate-600 font-medium">
+          <div class="flex items-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs text-slate-600 font-medium truncate">
             <span>Section Échecs</span>
-            <span>•</span>
-            <span class="font-bold text-slate-700" dir="rtl">حمراء عنابة</span>
+            <span class="hidden min-[360px]:inline">•</span>
+            <span class="hidden min-[360px]:inline font-bold text-slate-700" dir="rtl">حمراء عنابة</span>
           </div>
         </div>
       </a>
 
       <!-- Action Rapide Header -->
-      <div class="flex items-center gap-2">
-        <a href="tel:0669546680" class="inline-flex items-center gap-2 px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-full bg-hamra-600 hover:bg-hamra-700 active:scale-95 text-white font-bold text-xs sm:text-sm shadow-xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-hamra-600">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <div class="flex items-center gap-2 shrink-0">
+        <a href="tel:0669546680" class="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-2 sm:px-4 sm:py-2.5 rounded-full bg-hamra-600 hover:bg-hamra-700 active:scale-95 text-white font-bold text-xs sm:text-sm shadow-xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-hamra-600 shrink-0" aria-label="Appeler le 0669 54 66 80">
+          <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           <span class="hidden sm:inline">Appeler :</span>
-          <span class="font-black tracking-wide">0669 54 66 80</span>
+          <span class="hidden sm:inline font-black tracking-wide">0669 54 66 80</span>
+          <span class="sm:hidden font-bold tracking-tight">Appeler</span>
         </a>
       </div>
 
@@ -97,16 +98,16 @@
       <div class="max-w-4xl mx-auto px-4 sm:px-6">
         
         <!-- Badge statut -->
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 shadow-2xs mb-4 sm:mb-6">
-          <span class="flex h-2 w-2 relative">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 shadow-2xs mb-4 sm:mb-6 max-w-full">
+          <span class="flex h-2 w-2 relative shrink-0">
             <span class="pulse-dot absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          <span class="text-xs font-bold tracking-wide uppercase text-slate-700">Inscriptions ouvertes • Tous les âges</span>
+          <span class="text-xs font-bold tracking-wide uppercase text-slate-700 truncate">Inscriptions ouvertes • Tous les âges</span>
         </div>
 
         <!-- Titre d'impact -->
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.12] mb-4 sm:mb-5">
+        <h1 class="text-2xl min-[360px]:text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.12] mb-4 sm:mb-5 break-words">
           Rejoignez la <span class="text-hamra-600 underline decoration-hamra-200 underline-offset-4">Section Échecs</span> du Club Hamra Annaba
         </h1>
 
@@ -116,34 +117,34 @@
         </p>
 
         <!-- BENTO DES 4 REPERES CLES DU HERO -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 mb-8">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-8">
           
           <!-- Tarif -->
-          <div class="bg-white rounded-xl p-3 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center">
-            <span class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Tarif mensuel</span>
-            <div class="text-lg sm:text-2xl font-black text-hamra-600 mt-0.5">2 000 DA</div>
-            <span class="text-[11px] text-slate-600 font-medium">Par mois • Sans engagement</span>
+          <div class="bg-white rounded-xl p-2.5 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center min-w-0">
+            <span class="text-[10px] sm:text-[11px] font-bold text-slate-600 uppercase tracking-wider truncate">Tarif mensuel</span>
+            <div class="text-base sm:text-2xl font-black text-hamra-600 mt-0.5">2 000 DA</div>
+            <span class="text-[10px] sm:text-[11px] text-slate-600 font-medium">Par mois • Sans engagement</span>
           </div>
 
           <!-- Créneaux -->
-          <div class="bg-white rounded-xl p-3 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center">
-            <span class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Séances</span>
-            <div class="text-sm sm:text-base font-black text-slate-900 mt-0.5">Mar. 17h • Sam. 10h</div>
-            <span class="text-[11px] text-slate-600 font-medium">2 entraînements / sem.</span>
+          <div class="bg-white rounded-xl p-2.5 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center min-w-0">
+            <span class="text-[10px] sm:text-[11px] font-bold text-slate-600 uppercase tracking-wider truncate">Séances</span>
+            <div class="text-xs sm:text-base font-black text-slate-900 mt-0.5">Mar. 17h • Sam. 10h</div>
+            <span class="text-[10px] sm:text-[11px] text-slate-600 font-medium">2 entraînements / sem.</span>
           </div>
 
           <!-- Lieu -->
-          <div class="bg-white rounded-xl p-3 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center">
-            <span class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Lieu à Annaba</span>
-            <div class="text-sm sm:text-base font-black text-slate-900 mt-0.5">TCA Annaba</div>
-            <span class="text-[11px] text-slate-600 font-medium">Face Consulat de France</span>
+          <div class="bg-white rounded-xl p-2.5 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center min-w-0">
+            <span class="text-[10px] sm:text-[11px] font-bold text-slate-600 uppercase tracking-wider truncate">Lieu à Annaba</span>
+            <div class="text-xs sm:text-base font-black text-slate-900 mt-0.5">TCA Annaba</div>
+            <span class="text-[10px] sm:text-[11px] text-slate-600 font-medium">Face Consulat de France</span>
           </div>
 
           <!-- Enseignant -->
-          <div class="bg-white rounded-xl p-3 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center">
-            <span class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Enseignant</span>
-            <div class="text-sm sm:text-base font-black text-slate-900 mt-0.5">M. Bentboula</div>
-            <span class="text-[11px] text-slate-600 font-medium">Responsable des cours</span>
+          <div class="bg-white rounded-xl p-2.5 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center min-w-0">
+            <span class="text-[10px] sm:text-[11px] font-bold text-slate-600 uppercase tracking-wider truncate">Enseignant</span>
+            <div class="text-xs sm:text-base font-black text-slate-900 mt-0.5">M. Bentboula</div>
+            <span class="text-[10px] sm:text-[11px] text-slate-600 font-medium">Responsable des cours</span>
           </div>
 
         </div>
@@ -152,14 +153,18 @@
         <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
           
           <!-- Bouton Appel Principal -->
-          <a href="tel:0669546680" class="btn-primary-bounce flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-hamra-600 hover:bg-hamra-700 text-white font-black text-base sm:text-lg text-center tracking-wide focus:outline-hidden focus-visible:ring-4 focus-visible:ring-hamra-300">
-            <svg class="w-6 h-6 shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>APPELER POUR S'INSCRIRE • 0669 54 66 80</span>
+          <a href="tel:0669546680" class="btn-primary-bounce flex items-center justify-center gap-2.5 sm:gap-3 px-4 sm:px-6 py-3.5 sm:py-4 rounded-xl bg-hamra-600 hover:bg-hamra-700 text-white font-black text-sm sm:text-base md:text-lg text-center tracking-wide focus:outline-hidden focus-visible:ring-4 focus-visible:ring-hamra-300 w-full sm:w-auto">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6 shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span class="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
+              <span>APPELER POUR S'INSCRIRE</span>
+              <span class="hidden sm:inline">•</span>
+              <span class="font-extrabold text-hamra-100 sm:text-white">0669 54 66 80</span>
+            </span>
           </a>
 
           <!-- Bouton SMS Secondaire -->
-          <a href="sms:0669546680?body=Bonjour%2C%20je%20souhaite%20des%20renseignements%20pour%20l%27inscription%20au%20club%20d%27%C3%A9checs%20Hamra%20Annaba." class="inline-flex items-center justify-center gap-2.5 px-5 py-4 rounded-xl bg-white hover:bg-slate-100 active:bg-slate-200 text-slate-800 font-bold text-sm sm:text-base border border-slate-300 shadow-2xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-slate-400">
-            <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+          <a href="sms:0669546680?body=Bonjour%2C%20je%20souhaite%20des%20renseignements%20pour%20l%27inscription%20au%20club%20d%27%C3%A9checs%20Hamra%20Annaba." class="inline-flex items-center justify-center gap-2.5 px-4 sm:px-5 py-3.5 sm:py-4 rounded-xl bg-white hover:bg-slate-100 active:bg-slate-200 text-slate-800 font-bold text-sm sm:text-base border border-slate-300 shadow-2xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-slate-400 w-full sm:w-auto">
+            <svg class="w-5 h-5 text-slate-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
             <span>Envoyer un SMS</span>
           </a>
 
