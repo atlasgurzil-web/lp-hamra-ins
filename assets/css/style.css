@@ -1,0 +1,71 @@
+/* Style personnalisé Hamra Annaba - Section Échecs */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cinzel:wght@600;700&display=swap');
+
+:root {
+  --color-hamra-red: #E00613;
+  --color-hamra-red-hover: #C0040F;
+  --color-hamra-red-light: #FEE2E2;
+  --color-hamra-dark: #0F172A;
+  --color-hamra-slate: #1E293B;
+  --color-hamra-gold: #D97706;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Motif d'échiquier subtil pour le fond */
+.bg-chessboard-subtle {
+  background-color: #FAFAFA;
+  background-image: 
+    linear-gradient(45deg, rgba(224, 6, 19, 0.02) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(224, 6, 19, 0.02) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(224, 6, 19, 0.02) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(224, 6, 19, 0.02) 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+}
+
+/* Micro-interactions tactiles */
+.btn-primary-bounce {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px 0 rgba(224, 6, 19, 0.35);
+}
+
+.btn-primary-bounce:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(224, 6, 19, 0.45);
+}
+
+.btn-primary-bounce:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 2px 8px 0 rgba(224, 6, 19, 0.3);
+}
+
+.card-hover-lift {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.card-hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.08);
+}
+
+/* Pulse badge pour Inscriptions Ouvertes */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.4; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.pulse-dot {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+
+/* Safe area mobile */
+.pb-safe {
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 5rem);
+}
