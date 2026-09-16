@@ -99,3 +99,30 @@ La section finale d'inscription résumée en 3 étapes sans friction (Contacter 
 ## Bloquée par
 
 - Phase 3
+
+---
+
+## Phase 5 : Intégration des Photos Réelles & Évolution du Design (Branche `feat/photos-et-evolution-design`)
+
+**User stories** : US-1, US-4, US-5, US-6
+
+### Ce qu'on livre
+
+L'intégration des 5 photographies authentiques fournies par le club et l'évolution globale de l'identité visuelle :
+1. **Hero Split 2 Colonnes :** Accroche d'impact et CTA d'appel direct à gauche, couplés à une carte photographique noble mettant en vedette le gros plan artistique du cavalier (`photo-hero-cavalier.webp`) avec badges flottants du TCA à droite.
+2. **Bento-Galerie Narrative « Vie du club » :** Transformation de la section 4 en une grille asymétrique riche valorisant la grande photo de groupe avec les diplômes, les matchs de tournoi en direct en salle au TCA, l'ambiance extérieure et la convivialité des membres.
+3. **Pipeline d'optimisation WebP/JPEG :** Réduction du poids total des photos de ~11 Mo à ~819 Ko pour garantir un affichage instantané (< 1s) sur smartphone sans saturation réseau.
+4. **Design Tokens & Micro-interactions :** Cartes `.photo-card`, zoom progressif `.img-zoom-target`, badges de verre givré `.glass-badge` et masques de dégradés profonds.
+
+### Critères d'acceptation
+
+- [x] Les 5 photos sont converties en formats optimisés WebP et JPG avec balises `<picture>`.
+- [x] Le Hero présente un split 2 colonnes équilibré sur desktop et un empilement naturel sur smartphone.
+- [x] La section « Vie du club » affiche la photo de groupe officielle avec diplômes et le tournoi en salle avec légendes contextuelles.
+- [x] Aucun débordement horizontal (`overflow-x: hidden`) sur toutes largeurs d'écran.
+- [x] Le temps de chargement des images et le respect des critères Core Web Vitals (LCP, CLS) sont maintenus au plus haut standard.
+
+## Bloquée par
+
+- Phase 4 (Terminée)
+

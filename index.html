@@ -49,7 +49,7 @@
 
   <!-- HEADER INSTITUTIONNEL FIXE / STICKY -->
   <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-xs transition-all w-full">
-    <div class="max-w-4xl mx-auto px-3 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-2">
+    <div class="max-w-5xl mx-auto px-3 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-2">
       
       <!-- Identité Hamra Annaba -->
       <a href="#" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-hidden focus-visible:ring-2 focus-visible:ring-hamra-600 rounded-lg p-1 min-w-0">
@@ -90,34 +90,113 @@
   <main class="grow">
 
     <!-- SECTION 1 : HERO HAUTE CONVERSION -->
-    <section class="relative bg-chessboard-subtle border-b border-slate-200/80 pt-8 pb-12 sm:pt-14 sm:pb-16 overflow-hidden">
+    <section class="relative bg-chessboard-subtle border-b border-slate-200/80 pt-7 pb-12 sm:pt-12 sm:pb-16 overflow-hidden">
       
       <!-- Halo décoratif rouge subtil -->
-      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-64 bg-radial from-hamra-600/10 via-hamra-500/5 to-transparent blur-2xl pointer-events-none -z-10"></div>
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-72 bg-radial from-hamra-600/10 via-hamra-500/5 to-transparent blur-3xl pointer-events-none -z-10"></div>
 
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
         
-        <!-- Badge statut -->
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 shadow-2xs mb-4 sm:mb-6 max-w-full">
-          <span class="flex h-2 w-2 relative shrink-0">
-            <span class="pulse-dot absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-            <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-          </span>
-          <span class="text-xs font-bold tracking-wide uppercase text-slate-700 truncate">Inscriptions ouvertes • Tous les âges</span>
+        <!-- HERO SPLIT DESKTOP 2 COLONNES -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center mb-8 sm:mb-10">
+          
+          <!-- COLONNE GAUCHE : TEXTE & CONVERSION -->
+          <div class="lg:col-span-7 flex flex-col items-start">
+            
+            <!-- Badge statut -->
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 shadow-2xs mb-4 sm:mb-5 max-w-full">
+              <span class="flex h-2 w-2 relative shrink-0">
+                <span class="pulse-dot absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <span class="text-xs font-bold tracking-wide uppercase text-slate-700 truncate">Inscriptions ouvertes • Tous les âges</span>
+            </div>
+
+            <!-- Titre d'impact -->
+            <h1 class="text-2xl min-[360px]:text-3xl sm:text-5xl lg:text-[3.25rem] font-black text-slate-950 tracking-tight leading-[1.12] mb-4 sm:mb-5 break-words">
+              Rejoignez la <span class="text-hamra-600 underline decoration-hamra-200 underline-offset-4">Section Échecs</span> du Club Hamra Annaba
+            </h1>
+
+            <!-- Sous-titre rassurant & direct -->
+            <p class="text-base sm:text-lg text-slate-600 font-normal leading-relaxed mb-6 sm:mb-7 max-w-xl">
+              Apprenez à maîtriser le jeu des rois, progressez à votre rythme et participez à nos tournois mensuels au <strong>Tennis Club d'Annaba (TCA)</strong>.
+            </p>
+
+            <!-- ACTIONS PRINCIPALES DE CONVERSION -->
+            <div class="flex flex-col sm:flex-row gap-3 w-full sm:items-center">
+              
+              <!-- Bouton Appel Principal -->
+              <a href="tel:0669546680" class="btn-primary-bounce flex items-center justify-center gap-2.5 sm:gap-3 px-5 sm:px-6 py-3.5 sm:py-4 rounded-xl bg-hamra-600 hover:bg-hamra-700 text-white font-black text-sm sm:text-base text-center tracking-wide focus:outline-hidden focus-visible:ring-4 focus-visible:ring-hamra-300 w-full sm:w-auto shadow-sm">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6 shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span class="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
+                  <span>APPELER POUR S'INSCRIRE</span>
+                  <span class="hidden sm:inline">•</span>
+                  <span class="font-extrabold text-hamra-100 sm:text-white">0669 54 66 80</span>
+                </span>
+              </a>
+
+              <!-- Bouton SMS Secondaire -->
+              <a href="sms:0669546680?body=Bonjour%2C%20je%20souhaite%20des%20renseignements%20pour%20l%27inscription%20au%20club%20d%27%C3%A9checs%20Hamra%20Annaba." class="inline-flex items-center justify-center gap-2 px-4 sm:px-5 py-3.5 sm:py-4 rounded-xl bg-white hover:bg-slate-100 active:bg-slate-200 text-slate-800 font-bold text-sm sm:text-base border border-slate-300 shadow-2xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-slate-400 w-full sm:w-auto">
+                <svg class="w-5 h-5 text-slate-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+                <span>Envoyer un SMS</span>
+              </a>
+
+            </div>
+
+            <!-- Mentions de réassurance -->
+            <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-slate-600">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              <span>Pas de formulaire à remplir • Contact direct avec Monsieur Bentboula</span>
+            </div>
+
+          </div>
+
+          <!-- COLONNE DROITE : CARTE PHOTO 1 : CONVIVIALITÉ & ESPRIT DE CLUB -->
+          <div class="lg:col-span-5 w-full">
+            <div class="photo-card group relative aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3.8] max-h-[400px] w-full bg-slate-900 overflow-hidden shadow-lg border border-slate-200/90 rounded-2xl">
+              <picture>
+                <source srcset="assets/images/photo-convivialite-club.webp" type="image/webp">
+                <img 
+                  src="assets/images/photo-convivialite-club.jpg" 
+                  alt="Moments de convivialité et esprit d'équipe de la section échecs Hamra Annaba avec l'entraîneur et les jeunes adhérents" 
+                  class="img-zoom-target w-full h-full object-cover object-[center_18%]"
+                  loading="eager" 
+                  fetchpriority="high" 
+                  width="960" 
+                  height="1280">
+              </picture>
+
+              <!-- Masque de dégradé pour la profondeur -->
+              <div class="photo-overlay-gradient absolute inset-0 pointer-events-none"></div>
+
+              <!-- Badge flottant haut : Ambiance Club & Lieu -->
+              <div class="absolute top-3.5 right-3.5 glass-badge px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-sm">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 shrink-0"></span>
+                <span class="text-[11px] font-bold text-white tracking-wide">Ambiance Conviviale • TCA</span>
+              </div>
+
+              <!-- Légende basse intégrée -->
+              <div class="absolute bottom-3.5 left-3.5 right-3.5 flex items-center justify-between text-white">
+                <div class="flex items-center gap-2 min-w-0">
+                  <div class="w-7 h-7 rounded-lg bg-hamra-600/90 flex items-center justify-center text-white shrink-0 shadow-xs">
+                    <!-- Heart / People SVG -->
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                  </div>
+                  <div class="min-w-0">
+                    <div class="text-xs font-black tracking-tight truncate">Une Communauté Soudée</div>
+                    <div class="text-[10px] text-slate-300 truncate">Enfants, adolescents & adultes réunis</div>
+                  </div>
+                </div>
+                <span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full bg-white/20 border border-white/20 shrink-0 hidden min-[400px]:inline-block">Hamra 1944</span>
+              </div>
+
+            </div>
+          </div>
+
         </div>
 
-        <!-- Titre d'impact -->
-        <h1 class="text-2xl min-[360px]:text-3xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.12] mb-4 sm:mb-5 break-words">
-          Rejoignez la <span class="text-hamra-600 underline decoration-hamra-200 underline-offset-4">Section Échecs</span> du Club Hamra Annaba
-        </h1>
-
-        <!-- Sous-titre rassurant & direct -->
-        <p class="text-base sm:text-xl text-slate-600 font-normal leading-relaxed mb-6 sm:mb-8 max-w-2xl">
-          Apprenez à maîtriser le jeu des rois, progressez à votre rythme et participez à nos tournois mensuels au <strong>Tennis Club d'Annaba (TCA)</strong>.
-        </p>
-
         <!-- BENTO DES 4 REPERES CLES DU HERO -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-8">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
           
           <!-- Tarif -->
           <div class="bg-white rounded-xl p-2.5 sm:p-4 border border-slate-200/90 shadow-2xs flex flex-col justify-center min-w-0">
@@ -149,39 +228,185 @@
 
         </div>
 
-        <!-- ACTIONS PRINCIPALES DE CONVERSION -->
-        <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
-          
-          <!-- Bouton Appel Principal -->
-          <a href="tel:0669546680" class="btn-primary-bounce flex items-center justify-center gap-2.5 sm:gap-3 px-4 sm:px-6 py-3.5 sm:py-4 rounded-xl bg-hamra-600 hover:bg-hamra-700 text-white font-black text-sm sm:text-base md:text-lg text-center tracking-wide focus:outline-hidden focus-visible:ring-4 focus-visible:ring-hamra-300 w-full sm:w-auto">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6 shrink-0 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span class="flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
-              <span>APPELER POUR S'INSCRIRE</span>
-              <span class="hidden sm:inline">•</span>
-              <span class="font-extrabold text-hamra-100 sm:text-white">0669 54 66 80</span>
-            </span>
-          </a>
+      </div>
+    </section>
 
-          <!-- Bouton SMS Secondaire -->
-          <a href="sms:0669546680?body=Bonjour%2C%20je%20souhaite%20des%20renseignements%20pour%20l%27inscription%20au%20club%20d%27%C3%A9checs%20Hamra%20Annaba." class="inline-flex items-center justify-center gap-2.5 px-4 sm:px-5 py-3.5 sm:py-4 rounded-xl bg-white hover:bg-slate-100 active:bg-slate-200 text-slate-800 font-bold text-sm sm:text-base border border-slate-300 shadow-2xs transition-all focus:outline-hidden focus-visible:ring-2 focus-visible:ring-slate-400 w-full sm:w-auto">
-            <svg class="w-5 h-5 text-slate-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-            <span>Envoyer un SMS</span>
-          </a>
-
+    <!-- SECTION 2 : ORGANISATION PRATIQUE (CRÉNEAUX, TARIF & LIEU TCA) -->
+    <section class="py-12 sm:py-16 bg-slate-50 border-b border-slate-200/80">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        
+        <div class="text-center max-w-xl mx-auto mb-8 sm:mb-10">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-hamra-600 bg-hamra-50 border border-hamra-200 px-3 py-1 rounded-full">Organisation Pratique</span>
+          <h2 class="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight mt-3">
+            Créneaux, Tarif & Salle d'Entraînement
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2">
+            Tout est pensé pour vous offrir un cadre d'entraînement optimal au centre d'Annaba.
+          </p>
         </div>
 
-        <!-- Mentions de réassurance -->
-        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-slate-600">
-          <svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-          <span>Pas de formulaire à remplir • Contact direct avec Monsieur Bentboula</span>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+          
+          <!-- BLOC HORAIRES -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-2xs flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-hamra-50 border border-hamra-200 flex items-center justify-center text-hamra-600 mb-4">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Horaires des Cours</h3>
+              <p class="text-xs text-slate-500 mt-1 mb-4">Deux séances hebdomadaires :</p>
+              
+              <div class="space-y-2.5">
+                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/80 flex items-center justify-between">
+                  <div>
+                    <span class="text-xs font-bold text-slate-700 block">Mardi</span>
+                    <span class="text-[11px] text-slate-500">Fin d'après-midi</span>
+                  </div>
+                  <span class="text-sm font-black text-hamra-600">Dès 17h00</span>
+                </div>
+                <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/80 flex items-center justify-between">
+                  <div>
+                    <span class="text-xs font-bold text-slate-700 block">Samedi</span>
+                    <span class="text-[11px] text-slate-500">Matinée du week-end</span>
+                  </div>
+                  <span class="text-sm font-black text-hamra-600">Dès 10h00</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-2 text-xs text-slate-600">
+              <svg class="w-4 h-4 text-hamra-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <span>Enseignant : <strong>M. Bentboula</strong></span>
+            </div>
+          </div>
+
+          <!-- BLOC TARIF -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 border-2 border-hamra-600 shadow-md relative flex flex-col justify-between">
+            <span class="absolute -top-3 right-4 px-2.5 py-0.5 bg-hamra-600 text-white text-[10px] font-black uppercase tracking-wider rounded-full">Tarif Unique</span>
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-hamra-50 border border-hamra-200 flex items-center justify-center text-hamra-600 mb-4">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Tarif Mensuel</h3>
+              <p class="text-xs text-slate-500 mt-1 mb-3">Accès complet aux séances du club</p>
+              <div class="my-3">
+                <div class="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight">2 000 DA</div>
+                <span class="text-xs font-semibold text-hamra-700 bg-hamra-50 px-2 py-0.5 rounded-sm inline-block mt-1">Par mois</span>
+              </div>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Tarif accessible permettant à chaque passionné ou enfant de bénéficier d'un entraînement régulier toute l'année.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-t border-slate-100 text-xs font-bold text-slate-500 text-center">
+              Sans engagement de durée
+            </div>
+          </div>
+
+          <!-- BLOC LIEU (TCA ANNABA) -->
+          <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-2xs flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-800 mb-4">
+                <svg class="w-5 h-5 text-hamra-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Lieu d'Entraînement</h3>
+              <p class="text-xs text-slate-500 mt-1 mb-4">Un emplacement central et sécurisé :</p>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-sm font-extrabold text-slate-900">Tennis Club d'Annaba (TCA)</div>
+                <div class="text-xs font-bold text-hamra-700 mt-1 flex items-center gap-1">
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 16 12 12 12 8"/></svg>
+                  <span>En face du Consulat de France</span>
+                </div>
+                <div class="text-[11px] text-slate-500 mt-1">Annaba, Algérie</div>
+              </div>
+            </div>
+            
+            <a href="https://maps.google.com/?q=Tennis+Club+Annaba" target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center gap-2 w-full py-2.5 px-3 rounded-lg bg-slate-100 hover:bg-slate-200 active:bg-slate-300 text-slate-800 font-bold text-xs transition-colors">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+              <span>Voir sur Google Maps</span>
+            </a>
+          </div>
+
         </div>
 
       </div>
     </section>
 
-    <!-- SECTION 2 : POURQUOI NOUS REJOINDRE (POLE ENFANTS vs ADOS & ADULTES) -->
+    <!-- SECTION 3 : PREUVE & FIERTÉ DU CLUB (PHOTO 2 : GROUPE OFFICIEL & DIPLÔMES) -->
     <section class="py-12 sm:py-16 bg-white border-b border-slate-200/80">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
+        
+        <div class="mb-8 sm:mb-10 text-center sm:text-left">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full">Preuve Sociale & Fierté</span>
+          <h2 class="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight mt-3">
+            L'émulation collective et la réussite de nos jeunes talents
+          </h2>
+          <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl">
+            Au <strong>Hamra Annaba</strong>, chaque adhérent est accompagné avec bienveillance. Nos tournois débouchent sur de véritables remises d'attestations et diplômes de mérite sportif sous la direction de <strong>Monsieur Bentboula</strong>.
+          </p>
+        </div>
+
+        <!-- GRANDE CARTE SPOTLIGHT PHOTO 2 : GROUPE & DIPLÔMES -->
+        <div class="photo-card group relative min-h-[380px] sm:min-h-[460px] w-full rounded-2xl overflow-hidden bg-slate-950 flex flex-col justify-between p-6 sm:p-8 text-white shadow-xl">
+          <picture>
+            <source srcset="assets/images/photo-groupe-diplomes.webp" type="image/webp">
+            <img 
+              src="assets/images/photo-groupe-diplomes.jpg" 
+              alt="Photo de groupe officielle de la section échecs Hamra Annaba avec l'entraîneur Monsieur Bentboula, les enfants, trophées et diplômes" 
+              class="img-zoom-target absolute inset-0 w-full h-full object-cover object-center" 
+              loading="lazy" 
+              decoding="async" 
+              width="1400" 
+              height="1050">
+          </picture>
+
+          <!-- Gradient Lisibilité -->
+          <div class="photo-overlay-gradient absolute inset-0 pointer-events-none"></div>
+
+          <!-- Badges flottants hauts -->
+          <div class="relative z-10 flex flex-wrap items-center justify-between gap-2">
+            <div class="glass-badge px-3.5 py-1.5 rounded-full inline-flex items-center gap-2 text-xs font-bold text-white shadow-xs">
+              <svg class="w-4 h-4 text-amber-400 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <span>Remise Officielle de Diplômes • TCA</span>
+            </div>
+            <span class="glass-badge px-3 py-1 rounded-full text-xs font-semibold text-slate-200 hidden sm:inline-block">Section Échecs Hamra Annaba</span>
+          </div>
+
+          <!-- Contenu bas valorisant -->
+          <div class="relative z-10 mt-auto pt-8 max-w-2xl">
+            <span class="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-amber-400 bg-amber-950/80 border border-amber-500/40 px-2.5 py-0.5 rounded-full inline-block mb-2.5">
+              Une Communauté Épanouie
+            </span>
+            <h3 class="text-xl sm:text-3xl font-black text-white tracking-tight leading-snug">
+              Des jeunes fiers, concentrés et récompensés
+            </h3>
+            <p class="text-xs sm:text-base text-slate-200 mt-2 leading-relaxed">
+              L'apprentissage des échecs forge le caractère, la patience et le respect de l'adversaire. Les parents constatent rapidement un gain d'autonomie et une meilleure concentration scolaire chez leurs enfants.
+            </p>
+            
+            <div class="flex flex-wrap items-center gap-2 sm:gap-3 mt-4 pt-3 border-t border-white/15 text-xs font-semibold text-slate-200">
+              <span class="flex items-center gap-1.5 bg-black/40 px-2.5 py-1 rounded-lg border border-white/10">
+                <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Diplômes de mérite
+              </span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2.5 py-1 rounded-lg border border-white/10">
+                <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Encadrement bienveillant
+              </span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2.5 py-1 rounded-lg border border-white/10">
+                <svg class="w-3.5 h-3.5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                Émulation saine
+              </span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 4 : POURQUOI NOUS REJOINDRE (POLE ENFANTS vs ADOS & ADULTES) -->
+    <section class="py-12 sm:py-16 bg-slate-50 border-b border-slate-200/80">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
         
         <div class="mb-8 sm:mb-10 text-center sm:text-left">
           <span class="text-xs font-extrabold uppercase tracking-widest text-hamra-600 bg-hamra-50 border border-hamra-200 px-3 py-1 rounded-full">Une Pédagogie Éprouvée</span>
@@ -196,10 +421,10 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
           
           <!-- CARTE 1 : ENFANTS & JEUNESSE -->
-          <div class="card-hover-lift bg-slate-50/80 rounded-2xl p-6 sm:p-7 border border-slate-200/90 flex flex-col justify-between relative overflow-hidden">
+          <div class="card-hover-lift bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/90 flex flex-col justify-between relative overflow-hidden shadow-2xs">
             <div class="absolute top-0 right-0 w-24 h-24 bg-hamra-100/50 rounded-bl-full pointer-events-none -z-0"></div>
             <div>
-              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-hamra-700 border border-hamra-200 text-xs font-bold mb-4 shadow-2xs">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-hamra-50 text-hamra-700 border border-hamra-200 text-xs font-bold mb-4 shadow-2xs">
                 <!-- Icône Cavalier / Échecs -->
                 <svg class="w-4 h-4 text-hamra-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 0-4 4c0 1.5.8 2.8 2 3.5V11a2 2 0 0 0-2 2v1h8v-1a2 2 0 0 0-2-2V9.5c1.2-.7 2-2 2-3.5a4 4 0 0 0-4-4z"/><path d="M6 22h12v-2a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2z"/></svg>
                 <span>Pour les Enfants</span>
@@ -274,144 +499,82 @@
       </div>
     </section>
 
-    <!-- SECTION 3 : COURS, HORAIRES & LIEU (TCA ANNABA) -->
-    <section class="py-12 sm:py-16 bg-slate-50 border-b border-slate-200/80">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <!-- SECTION 5 : COMPÉTITION EN DIRECT (PHOTO 3 : TOURNOI EN SALLE TCA & PILIERS) -->
+    <section class="py-12 sm:py-16 bg-white border-b border-slate-200/80">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
         
-        <div class="text-center max-w-xl mx-auto mb-8 sm:mb-10">
-          <span class="text-xs font-extrabold uppercase tracking-widest text-hamra-600 bg-hamra-50 border border-hamra-200 px-3 py-1 rounded-full">Organisation Pratique</span>
+        <div class="mb-8 sm:mb-10 text-center sm:text-left">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-hamra-600 bg-hamra-50 border border-hamra-200 px-3 py-1 rounded-full">Dynamique Compétitive</span>
           <h2 class="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight mt-3">
-            Créneaux, Tarif & Salle d'Entraînement
+            Des tournois officiels chaque mois face à la pendule
           </h2>
-          <p class="text-slate-600 text-sm sm:text-base mt-2">
-            Tout est pensé pour vous offrir un cadre d'entraînement optimal au centre d'Annaba.
+          <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl">
+            Vivez l'adrénaline des matchs en conditions réelles. Dans notre salle d'entraînement au TCA, les parties se jouent à la pendule digitale avec respect strict des règles de compétition.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch mb-8">
           
-          <!-- BLOC HORAIRES -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-2xs">
-            <div class="w-10 h-10 rounded-xl bg-hamra-50 border border-hamra-200 flex items-center justify-center text-hamra-600 mb-4">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <h3 class="text-lg font-bold text-slate-900">Horaires des Cours</h3>
-            <p class="text-xs text-slate-500 mt-1 mb-4">Deux séances hebdomadaires :</p>
-            
-            <div class="space-y-2.5">
-              <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/80 flex items-center justify-between">
-                <div>
-                  <span class="text-xs font-bold text-slate-700 block">Mardi</span>
-                  <span class="text-[11px] text-slate-500">Fin d'après-midi</span>
+          <!-- COLONNE GAUCHE (7 COLS) : CARTE PHOTO TOURNOI SALLE TCA -->
+          <div class="lg:col-span-7">
+            <div class="photo-card group relative h-[360px] sm:h-[420px] w-full rounded-2xl overflow-hidden bg-slate-950 flex flex-col justify-between p-5 sm:p-6 text-white shadow-lg">
+              <picture>
+                <source srcset="assets/images/photo-tournoi-salle-tca.webp" type="image/webp">
+                <img 
+                  src="assets/images/photo-tournoi-salle-tca.jpg" 
+                  alt="Match de tournoi en direct dans la salle d'échecs du club Hamra Annaba au TCA" 
+                  class="img-zoom-target absolute inset-0 w-full h-full object-cover object-center" 
+                  loading="lazy" 
+                  decoding="async" 
+                  width="1050" 
+                  height="1400">
+              </picture>
+
+              <!-- Gradient Sombre -->
+              <div class="photo-overlay-gradient absolute inset-0 pointer-events-none"></div>
+
+              <!-- Badge supérieur -->
+              <div class="relative z-10">
+                <div class="glass-badge px-3 py-1.5 rounded-full inline-flex items-center gap-1.5 text-xs font-bold text-white shadow-xs">
+                  <svg class="w-3.5 h-3.5 text-hamra-500 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  <span>Salle Set & Match • TCA</span>
                 </div>
-                <span class="text-sm font-black text-hamra-600">Dès 17h00</span>
               </div>
-              <div class="p-3 rounded-lg bg-slate-50 border border-slate-200/80 flex items-center justify-between">
-                <div>
-                  <span class="text-xs font-bold text-slate-700 block">Samedi</span>
-                  <span class="text-[11px] text-slate-500">Matinée du week-end</span>
-                </div>
-                <span class="text-sm font-black text-hamra-600">Dès 10h00</span>
+
+              <!-- Contenu bas -->
+              <div class="relative z-10 mt-auto pt-6">
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-hamra-400 bg-hamra-950/80 border border-hamra-500/40 px-2.5 py-0.5 rounded-full inline-block mb-2">
+                  Matchs Homologués
+                </span>
+                <h3 class="text-lg sm:text-xl font-black text-white tracking-tight leading-snug">
+                  Concentration intense et gestion de la pendule
+                </h3>
+                <p class="text-xs sm:text-sm text-slate-200 mt-1.5 leading-relaxed">
+                  Adolescents et adultes s'affrontent régulièrement lors de nos rondes mensuelles pour mesurer leurs progrès et gravir le classement du club.
+                </p>
               </div>
             </div>
+          </div>
+
+          <!-- COLONNE DROITE (5 COLS) : LES 3 PILIERS D'EXCELLENCE -->
+          <div class="lg:col-span-5 flex flex-col justify-between gap-3 sm:gap-4">
             
-            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center gap-2 text-xs text-slate-600">
-              <svg class="w-4 h-4 text-hamra-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-              <span>Enseignant : <strong>M. Bentboula</strong></span>
-            </div>
-          </div>
-
-          <!-- BLOC TARIF -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 border-2 border-hamra-600 shadow-md relative flex flex-col justify-between">
-            <span class="absolute -top-3 right-4 px-2.5 py-0.5 bg-hamra-600 text-white text-[10px] font-black uppercase tracking-wider rounded-full">Tarif Unique</span>
-            <div>
-              <div class="w-10 h-10 rounded-xl bg-hamra-50 border border-hamra-200 flex items-center justify-center text-hamra-600 mb-4">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-              </div>
-              <h3 class="text-lg font-bold text-slate-900">Tarif Mensuel</h3>
-              <p class="text-xs text-slate-500 mt-1 mb-3">Accès complet aux séances du club</p>
-              <div class="my-3">
-                <div class="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight">2 000 DA</div>
-                <span class="text-xs font-semibold text-hamra-700 bg-hamra-50 px-2 py-0.5 rounded-sm inline-block mt-1">Par mois</span>
-              </div>
-              <p class="text-xs text-slate-600 leading-relaxed">
-                Tarif accessible permettant à chaque passionné ou enfant de bénéficier d'un entraînement régulier toute l'année.
-              </p>
-            </div>
-            <div class="mt-4 pt-3 border-t border-slate-100 text-xs font-bold text-slate-500 text-center">
-              Sans engagement de durée
-            </div>
-          </div>
-
-          <!-- BLOC LIEU (TCA ANNABA) -->
-          <div class="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-2xs flex flex-col justify-between">
-            <div>
-              <div class="w-10 h-10 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center text-slate-800 mb-4">
-                <svg class="w-5 h-5 text-hamra-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </div>
-              <h3 class="text-lg font-bold text-slate-900">Lieu d'Entraînement</h3>
-              <p class="text-xs text-slate-500 mt-1 mb-4">Un emplacement central et sécurisé :</p>
-              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
-                <div class="text-sm font-extrabold text-slate-900">Tennis Club d'Annaba (TCA)</div>
-                <div class="text-xs font-bold text-hamra-700 mt-1 flex items-center gap-1">
-                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 16 12 12 12 8"/></svg>
-                  <span>En face du Consulat de France</span>
-                </div>
-                <div class="text-[11px] text-slate-500 mt-1">Annaba, Algérie</div>
-              </div>
-            </div>
-            
-            <a href="https://maps.google.com/?q=Tennis+Club+Annaba" target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center gap-2 w-full py-2.5 px-3 rounded-lg bg-slate-100 hover:bg-slate-200 active:bg-slate-300 text-slate-800 font-bold text-xs transition-colors">
-              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-              <span>Voir sur Google Maps</span>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- SECTION 4 : VIE DU CLUB & COMPETITIONS MENSUELLES -->
-    <section class="py-12 sm:py-16 bg-white border-b border-slate-200/80">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
-        
-        <div class="bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white rounded-3xl p-6 sm:p-10 shadow-xl relative overflow-hidden">
-          
-          <!-- Ligne décorative rouge -->
-          <div class="absolute top-0 left-0 right-0 h-1.5 bg-hamra-600"></div>
-          
-          <div class="max-w-2xl">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-hamra-900/60 border border-hamra-700 text-hamra-300 text-xs font-bold uppercase tracking-wider mb-4">
-              <svg class="w-3.5 h-3.5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-              <span>Dynamique Compétitive</span>
-            </span>
-            <h2 class="text-2xl sm:text-4xl font-black tracking-tight text-white leading-tight">
-              Une véritable vie de club et des tournois quasiment chaque mois
-            </h2>
-            <p class="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
-              Au <strong>Hamra Annaba</strong>, les échecs ne s'arrêtent pas à la théorie. Nous cultivons la passion du jeu et l'adrénaline des confrontations régulières dans une ambiance amicale et stimulante.
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 pt-6 border-t border-slate-800">
-            
-            <div class="bg-slate-850/80 border border-slate-800 rounded-xl p-4">
+            <div class="bg-slate-900 text-white rounded-2xl p-5 border border-slate-800 shadow-xs flex-1 flex flex-col justify-center">
               <div class="text-amber-400 text-2xl font-black">Mensuel</div>
-              <div class="text-sm font-bold text-white mt-1">Tournois réguliers</div>
-              <p class="text-xs text-slate-400 mt-1">Mise en pratique immédiate face à la pendule et classement de club.</p>
+              <div class="text-sm font-bold text-white mt-0.5">Tournois réguliers</div>
+              <p class="text-xs text-slate-400 mt-1 leading-relaxed">Mise en pratique immédiate face à la pendule et classement interne officiel du club.</p>
             </div>
 
-            <div class="bg-slate-850/80 border border-slate-800 rounded-xl p-4">
+            <div class="bg-slate-900 text-white rounded-2xl p-5 border border-slate-800 shadow-xs flex-1 flex flex-col justify-center">
               <div class="text-hamra-500 text-2xl font-black">Tous Âges</div>
-              <div class="text-sm font-bold text-white mt-1">Émulation collective</div>
-              <p class="text-xs text-slate-400 mt-1">Jeunes espoirs et joueurs expérimentés se côtoient et progressent ensemble.</p>
+              <div class="text-sm font-bold text-white mt-0.5">Émulation collective</div>
+              <p class="text-xs text-slate-400 mt-1 leading-relaxed">Jeunes espoirs et joueurs expérimentés se côtoient chaque semaine et progressent ensemble.</p>
             </div>
 
-            <div class="bg-slate-850/80 border border-slate-800 rounded-xl p-4">
+            <div class="bg-slate-900 text-white rounded-2xl p-5 border border-slate-800 shadow-xs flex-1 flex flex-col justify-center">
               <div class="text-emerald-400 text-2xl font-black">1944</div>
-              <div class="text-sm font-bold text-white mt-1">Tradition sportive</div>
-              <p class="text-xs text-slate-400 mt-1">L'héritage d'un club omnisports historique de la ville d'Annaba.</p>
+              <div class="text-sm font-bold text-white mt-0.5">Tradition sportive</div>
+              <p class="text-xs text-slate-400 mt-1 leading-relaxed">L'héritage d'un club omnisports historique de la ville d'Annaba au service de la jeunesse.</p>
             </div>
 
           </div>
@@ -421,9 +584,9 @@
       </div>
     </section>
 
-    <!-- SECTION 5 : INSCRIPTION SIMPLE EN 3 ETAPES (ZERO FRICTION) -->
+    <!-- SECTION 6 : INSCRIPTION SIMPLE EN 3 ÉTAPES (ZÉRO FRICTION) -->
     <section class="py-12 sm:py-16 bg-slate-50 border-b border-slate-200/80">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6">
         
         <div class="text-center max-w-xl mx-auto mb-10">
           <span class="text-xs font-extrabold uppercase tracking-widest text-hamra-600 bg-hamra-50 border border-hamra-200 px-3 py-1 rounded-full">Inscription Rapide</span>
@@ -536,7 +699,7 @@
 
   <!-- FOOTER OFFICIEL -->
   <footer class="bg-slate-950 text-white py-10 border-t border-slate-800">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-800">
         
         <div class="flex items-center gap-3 text-center sm:text-left">
